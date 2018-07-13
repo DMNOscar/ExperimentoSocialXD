@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutErrores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgIconoError"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="30dp"
+                />
+
+            <TextView
+                android:id="@+id/txtvTituloError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_grande"
+                android:textStyle="bold"
+                android:layout_below="@+id/imgIconoError"
+                android:text="@string/texto_ejemplo"
+                android:layout_margin="@dimen/margin"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/txtvDescripcionError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_mediano"
+                android:layout_below="@+id/txtvTituloError"
+                android:text="@string/texto_ejemplo"
+                android:layout_margin="@dimen/margin"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <TextView
+                android:id="@+id/textIntente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_grande"
+                android:layout_below="@+id/txtvDescripcionError"
+                android:layout_margin="@dimen/margin"
+                android:text="@string/intente"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txtvPosibleSolucion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_mediano"
+                android:layout_below="@+id/textIntente"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:text="@string/texto_ejemplo"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/textCodigoError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_mediano"
+                android:text="@string/codigo_de_error"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginRight="@dimen/margin"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/txtvPosibleSolucion"
+                />
+
+
+            <TextView
+                android:id="@+id/txtvCodigoError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/texto_mediano"
+                android:textStyle="bold"
+                android:layout_alignBaseline="@+id/textCodigoError"
+                android:layout_alignBottom="@+id/textCodigoError"
+                android:layout_toEndOf="@+id/textCodigoError"
+                android:layout_margin="@dimen/margin"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

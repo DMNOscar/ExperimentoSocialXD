@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    //Colores Logotipo el codigo es el correspondiente al de los colores del logotivo
+
+    <color name="colorLogoVerde">#00a859</color>
+    <color name="colorLogoAzul">#3e4095</color>
+    <color name="colorLogoAmarillo">#fef212</color>
+    <color name="colorLogoCian">#00afef</color>
+
+
+    //Colores Oscuros necesarios paralos degradados
+
+    <color name="colorVerdeOscuro">#008e4b</color>
+    <color name="colorAzulOscuro">#2a2ca2</color>
+    <color name="colorGrisOscuros">#8e8e8e</color>
+
+    //Colores Generales
+
+    <color name="colorBlanco">#ffffff</color>
+    <color name="colorNegro">#000000</color>
+    <color name="colorNergoTraslucido">#96000000</color>
+    <color name="colorGris">#BDBDBD</color>
+    <color name="colorGrisClaro">#dedede</color>
+    <color name="colorTransparente">#00FFFFFF</color>
+
+    //Colores Mensajes
+    <color name="colorErrores">#D32F2F</color>
+    <color name="colorAdvertencia">#FFC107</color>
+
+
+    //Colores Tema Cliente
+
+    <color name="primaryColorCliente">#00BCD4</color>
+    <color name="primaryDarkColorCliente">#0097A7</color>
+    <color name="primaryLightColorCliente">#B2EBF2</color>
+    <color name="accentColorCliente">#00afef</color>
+
+
+    //Colores Tema Administracion
+
+    //#009eab
+    //#00727d
+    //accentColorAdministracion">#8bb900
+
+
+    <color name="primaryColorAdministracion">#3E4095</color>
+    <color name="primaryDarkColorAdministracion">#33357B</color>
+    <color name="primaryLightColorAdministracion">#CFD8DC</color>
+    <color name="accentColorAdministracion">#00afef</color>
+
+
+    //Colores Tema Ruta
+
+    <color name="primaryColorRuta">#00a859</color>
+    <color name="primaryDarkColorRuta">#388E3C</color>
+    <color name="primaryLightColorRuta">#C8E6C9</color>
+    <color name="accentColorRuta">#03A9F4</color>
+
+    //Colores Estrellas
+
+    <color name="colorOro">#FFD700</color>
+    <color name="colorPlata">#C0C0C0</color>
+    <color name="colorBronce">#8c7853</color>
+
+
+</resources>

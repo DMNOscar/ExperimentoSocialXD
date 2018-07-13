@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Internet</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    //Texto Splash Screen
+    <string name="siglasATC">ATC</string>
+    <string name="correo_webmaster">webmaster.atc.mx@gmail.com</string>
+    <string name="recordar_datos">Recordar datos</string>
+
+    //Texto Login
+    <string name="loginIniciarSesion"> Iniciar sesión</string>
+    <string name="login_usuario">Usuario</string>
+    <string name="login_contrasena">Contraseña</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="nombre_de_usuario">Nombre de Usuario</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Teléfono</string>
+    <string name="title_activity_ruta">RutaActivity</string>
+
+    //Texto Generado (revisar si es necesario)
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+    <string name="title_activity_administracion">AdministracionActivity</string>
+
+
+    //Texto Generico (Puede ser usado a lo largo de la App)
+    <string name="clave_usuario">Clave Usuario:</string>
+    <string name="total">Total:</string>
+    <string name="color">Color:</string>
+    <string name="guardar">Guardar</string>
+
+
+    //Texto de ejmplo para visualizar el formato del texto
+    <string name="texto_ejemplo">Texto Ejemplo</string>
+    <string name="cantidad_ejemplo">$0</string>
+
+    //Texto Menú Rutas
+    <string name="menu_ruta_ventas">Ventas</string>
+    <string name="menu_ruta_reportes">Reportes</string>
+    <string name="menu_ruta_pedidos">Pedidos</string>
+    <string name="menu_ruta_creditos">Créditos</string>
+    <string name="menu_ruta_clientes">Clientes</string>
+
+    //Texto Menu Secundario
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="ayuda">Ayuda</string>
+
+
+    //Texto Descripcion Articulo
+    <string name="descripcion">Descripción</string>
+    <string name="clave_cliente">Clave cliente</string>
+    <string name="terminar_venta">Ingresar Información Venta</string>
+    <string name="informacion_venta">Información Venta</string>
+    <string name="codigo_de_error">Código de error:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intente">Intente:</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="otras_opciones">Otras Opciones</string>
+
+    //Texto Usado en Nota de venta (Venta Finalizada)
+    <string name="cliente_detalles_venta">Clave cliente:</string>
+    <string name="folio_detalles_venta">Folio:</string>
+    <string name="tipo_venta_detalles_venta">Tipo Venta:</string>
+    <string name="abono_inicial_detalles_venta">Abono Inicial:</string>
+    <string name="total_venta_detalles_venta">Total Venta:</string>
+    <string name="por_pagar_detalles_venta">Por Pagar:</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="signo_pesos">$</string>
+
+    //Texto Progress Dialog
+    <string name="titulo_progress">Cargando Información</string>
+    <string name="por_favor_espere">Por favor, espere</string>
+
+    //Toas Ruta
+    <string name="se_inserto_correctamente">Se agrego al carrito</string>
+    <string name="nombre">Nombre</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="correo_electronico">Correo Electrónico</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="credecial_de_acceso">Credencial de Acceso</string>
+    <string name="version_app">Versión 1.0</string>
+    <string name="texto_tipo_reportes">Seleccione un tipo de reporte</string>
+    <string name="texto_fechas_reportes">Ingrese un Rango de Fechas</string>
+    <string name="titulo_reportes">Ingresar Datos Reporte</string>
+    <string name="a">a</string>
+    <string name="texto_formato_fecha">dd/mm/aaaa</string>
+    <string name="compartir_por">Compartir por</string>
+    <string name="generar_reporte">Generar Reporte</string>
+    <string name="region">Región</string>
+    <string name="nombre_ciudad">Nombre Ciudad</string>
+    <string name="agregar_ciudad">Agregar Ciudad</string>
+    <string name="agregar">Agregar</string>
+
+    <string-array name="opcionesClientesActivos">
+        <item>Actualizar</item>
+        <item>Credenciales de acceso</item>
+        <item>Eliminar</item>
+
+    </string-array>
+
+    <string-array name="reportesRutaEncargado">
+        <item>Caja</item>
+        <item>Ventas</item>
+        <item>Creditos</item>
+        <item>Comisiones</item>
+    </string-array>
+
+    <string-array name="reportesRutaRepartidor">
+        <item>Caja</item>
+        <item>Ventas</item>
+        <item>Creditos</item>
+    </string-array>
+
+
+
+
+</resources>
