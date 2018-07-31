@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Internet</string>
+    <string name="app_name">Experimento Social</string>
     <string name="title_activity_login">LoginActivity</string>
 
     //Texto Splash Screen

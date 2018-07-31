@@ -7,7 +7,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 
-/**
+/*
  * Created by Oscar on 13/07/2018.
  */
 
@@ -22,18 +22,20 @@ public class VerificarConexion  extends BroadcastReceiver{
 
     BuscadorErrores obtenerError = new BuscadorErrores();
 
-
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.v(LOG_TAG, "Recibió una notificación sobre el estado de la red");
-        estadoConexionInternet(context);
+
+     //  estadoConexionInternet(context);
+
     }
 
     private boolean estadoConexionInternet(Context context) {
+
         ConnectivityManager connectivity = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivity != null) {
 
-            //NetworkInfo nos devuelve  la informacion del estado de re
+            //NetworkInfo nos devuelve  la informacion del estado de red
             NetworkInfo[] info = connectivity.getAllNetworkInfo();
 
             if (info != null) {
@@ -58,6 +60,7 @@ public class VerificarConexion  extends BroadcastReceiver{
         conectado = false;
         return false;
     }
+
 
 
 }
